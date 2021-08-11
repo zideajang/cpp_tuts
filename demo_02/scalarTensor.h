@@ -4,11 +4,11 @@
 class  ScalarTensor
 {
 private:
-    int value;
-    /* data */
+    int val;
 public:
     ScalarTensor(int val);
-    int getValue(){ return value;}
+    void setValue(int val);
+    int getValue(){ return val;}
 };
 
 #endif
